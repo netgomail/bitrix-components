@@ -1,4 +1,5 @@
 # bitrix-components
+```php
 <?
 if (CModule::IncludeModule('iblock')) {
     $arTypesEx = \CIBlockParameters::GetIBlockTypes(array('-' => ' '));
@@ -57,3 +58,4 @@ if (CModule::IncludeModule('iblock')) {
     }
 }
 ?>
+```
