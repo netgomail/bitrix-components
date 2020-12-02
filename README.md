@@ -1,6 +1,8 @@
 # bitrix-components
 ```php
 <?
+// Компонент для документов
+// Создать инфоблок если нет, со свойством Файл
 if (CModule::IncludeModule('iblock')) {
     $arTypesEx = \CIBlockParameters::GetIBlockTypes(array('-' => ' '));
     $iBlockType = 'docs';
